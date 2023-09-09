@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+
+    <children>
+        <Label layoutX="25.0" layoutY="21.0" text="Plazii Developments' Transit App" />
+        <Label layoutX="25.0" layoutY="64.0" text="Choose Your Bus Number" />
+        <ChoiceBox layoutX="25.0" layoutY="96.0" prefWidth="150.0" />
+        <Label layoutX="25.0" layoutY="160.0" text="Create Your Own Route" />
+        <TextArea layoutX="25.0" layoutY="192.0" prefHeight="150.0" prefWidth="300.0" />
+        <Button layoutX="361.0" layoutY="192.0" mnemonicParsing="false" text="Add Stop" />
+        <Button layoutX="361.0" layoutY="228.0" mnemonicParsing="false" text="Remove Stop" />
+        <Label layoutX="361.0" layoutY="160.0" text="Current Route" />
+        <ListView layoutX="361.0" layoutY="192.0" prefHeight="150.0" prefWidth="200.0" />
+        <Button layoutX="462.0" layoutY="358.0" mnemonicParsing="false" text="Save Route" />
+        <Button layoutX="25.0" layoutY="358.0" mnemonicParsing="false" text="Clear Route" />
+    </children>
+</AnchorPane>
